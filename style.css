@@ -118,3 +118,56 @@ margin-bottom:32px;
     color: #cccccc;
    }
    .work img{border-radius:4px; margin-bottom:12px;}
+   #contact{
+    text-align: center;
+   }
+   #contact form{
+    max-width: 400px;
+    margin: 30px auto 0;
+    display: flex; 
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+   }
+   #contact input,
+#contact textarea {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #333333;
+  color: black;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+#contact textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+#contact button {
+  align-self: center;
+  margin-top: 8px;
+}
+footer {
+  text-align: center;
+  padding: 30px 40px;
+  background-color: #111111;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 30px;
+}
+.social-links a{
+  color: #f4d03f;
+  text-decoration: none;
+  font-size: 15px;
+}
