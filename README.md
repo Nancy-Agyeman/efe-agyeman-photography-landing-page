@@ -53,6 +53,7 @@ To view this project locally: clone or download the repository, then open `index
 The tedious part was debugging the Recent Work carousel — three separate small JavaScript typos (`cick` instead of `click`, a case-mismatched element ID, and a mismatched variable name inside a loop) each silently broke the interaction in a different way, with no error shown until I checked the browser console. It taught me to check the console early when something "just doesn't work," rather than guessing at the code.
 
 **GitHub repository:** https://github.com/Nancy-Agyeman/efe-agyeman-photography-landing-page
+Netlify 
 
 
 
