@@ -67,13 +67,38 @@ button:hover {background: turquoise;}
     margin-bottom: 24px;
     max-width: 800px;
    }
-   #services, #how-we-work, #recent-work{
+   #services, #how-we-work {
     display: flex;
     flex-wrap: wrap;
     gap: 24px; 
     justify-content: center;
     padding: 60px 20px;
    }
+   #recent-work {
+    padding: 60px 20px;
+    text-align: center;
+   }
+   .carousel {
+    max-width: 500px;
+    margin: 0 auto;
+   }
+   .work{ display: none; }
+   .work.active{ display: block;}
+   .carousel-controls{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+   }
+   .carousel-controls button{
+    background-color:#f4d03f;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+   }
+   .carousel-controls button:hover {background: turquoise}
    #services h2, #how-we-work h2, #recent-work h2 {
 flex: basis 100%;
 width: 100%;
